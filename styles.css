@@ -1,0 +1,114 @@
+html{
+  width: 100%;
+  height: 90%;
+}
+
+body{
+  background-image: url("images/background.jpg");
+  margin: auto;
+  font-family: 'Lobster', cursive;
+}
+
+.display_screen{
+  margin-top: -5%;
+  font-family: 'Lobster', cursive;
+  /* border: 1px solid black; */
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.display_screen img{
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* width: 60%;
+  height: 60%; */
+  text-align: center;
+  margin-bottom: -15%;
+}
+
+.display_screen p{
+  text-align: center;
+  font-size: 300%;
+}
+
+.navbar{
+  /* border: 1px solid black; */
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  height: 70%;
+  width: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.index_list{
+  height: 25%;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+.index_list{
+  height: 25%;
+  color: black;
+  /* font-family: 'Lobster', cursive; */
+  font-size: 20px;
+  margin: 10px;
+  /* border: 1px solid black; */
+  /* position: absolute; */
+}
+
+.index_list a{
+  text-decoration: none;
+  color: black;
+}
+
+.index_list:hover{
+  font-size: 30px;
+}
+
+.main_section{
+  position: absolute;
+  z-index: -1;
+  /* text-align: center; */
+}
+
+.top_section{
+  position: absolute;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 10%;
+  z-index: 1;
+}
+
+.page_navigation{
+  border: 1px solid black;
+}
+
+.top_section h3{
+  margin-top: 0%;
+  text-align: center;
+  float: left;
+  width: 20%;
+  background-color: #edd4d8;
+
+}
+
+.top_section h3 a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.top_section h3:hover{
+  background: white;
+  color: pink;
+}

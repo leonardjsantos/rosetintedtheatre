@@ -1,0 +1,61 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+.main_section{
+  margin-left: 2%;
+  margin-right: 2%;
+
+
+}
+.team_header{
+  margin-top: 10%;
+  /*margin-left: 2%;
+  margin-right: 2%;
+  height: 50vh;
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid black; */
+  /* float: left; */ */
+  font-family: 'PT Serif', serif;
+
+
+
+}
+
+#team_bio{
+  float: left;
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+  width: 100%;
+  margin-bottom: 2%;
+  /* border: 1px solid red; */
+}
+
+#team_bio img{
+  width: 100%;
+  float: left;
+  margin-right: 50px;
+  height: 100%;
+}
+
+.team_image{
+  /* border: 1px solid blue; */
+  width: 37%;
+  /* height: 30%; */
+  float: left;
+}
+
+.team_headerBio{
+  /* border: 1px solid black; */
+  padding-left: 20px;
+  vertical-align: middle;
+  float: left;
+  width: 60%;
+  /* right: 0; */
+  text-align: left;
+  display: block;
+}

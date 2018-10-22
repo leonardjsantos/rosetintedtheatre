@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  margin-top: 0px;
+}
+.about_text{
+  margin: 5%;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+.about_header img{
+  height: 250px;
+  width: 100%;
+}
+
+.main_page{
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+
+}
+
+.top_section p{
+  margin-top: 9%;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+
+}
